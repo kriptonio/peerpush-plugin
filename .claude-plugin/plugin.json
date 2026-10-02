@@ -1,0 +1,24 @@
+{
+  "name": "peerpush",
+  "displayName": "PeerPush",
+  "version": "1.0.0",
+  "description": "Find, compare, and discover software, SaaS, developer, and AI tools with structured pricing, platform, and alternatives data from PeerPush.",
+  "author": {
+    "name": "PeerPush",
+    "url": "https://peerpush.com"
+  },
+  "homepage": "https://peerpush.com/mcp",
+  "repository": "https://github.com/kriptonio/peerpush-plugin",
+  "license": "MIT",
+  "keywords": [
+    "software",
+    "saas",
+    "tools",
+    "alternatives",
+    "product discovery",
+    "ai tools",
+    "developer tools"
+  ],
+  "privacyPolicyUrl": "https://peerpush.com/privacy",
+  "icon": ".claude-plugin/icon.png"
+}

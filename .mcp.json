@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "peerpush": {
+      "type": "http",
+      "url": "https://peerpush.com/api/mcp/discovery"
+    }
+  }
+}
