@@ -1,0 +1,11 @@
+{
+  "name": "peerpush",
+  "version": "1.0.1",
+  "description": "Find, compare, and discover software, SaaS, developer, and AI tools with PeerPush's structured product data.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "peerpush": {
+      "httpUrl": "https://peerpush.com/api/mcp/discovery"
+    }
+  }
+}

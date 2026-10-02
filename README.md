@@ -18,6 +18,12 @@ The bundled skill teaches Claude when to reach for PeerPush and how to present t
 
 Add the plugin, then connect the PeerPush connector from the plugin's Connectors tab. The connector needs no account, API key, or sign-in.
 
+The same repository also works as a Cursor plugin (`.cursor-plugin/plugin.json`) and a Gemini CLI extension (`gemini-extension.json`):
+
+```bash
+gemini extensions install https://github.com/kriptonio/peerpush-plugin
+```
+
 ## Data
 
 Every tool is read-only. The connector sends only the tool arguments Claude chooses, such as a product name or a search phrase, to peerpush.com. PeerPush records the tool used, a one-way hash of the arguments, the calling app's name, and a coarse country code to operate the service and give product owners aggregated statistics. It never receives your chat history. Full details: https://peerpush.com/privacy

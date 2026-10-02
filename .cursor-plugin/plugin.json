@@ -5,11 +5,12 @@
   "description": "Find, compare, and discover software, SaaS, developer, and AI tools with structured pricing, platform, and alternatives data from PeerPush.",
   "author": {
     "name": "PeerPush",
-    "url": "https://peerpush.com"
+    "email": "support@peerpush.com"
   },
   "homepage": "https://peerpush.com/mcp",
   "repository": "https://github.com/kriptonio/peerpush-plugin",
   "license": "MIT",
+  "logo": ".claude-plugin/icon.png",
   "keywords": [
     "software",
     "saas",
@@ -19,6 +20,10 @@
     "ai tools",
     "developer tools"
   ],
-  "privacyPolicyUrl": "https://peerpush.com/privacy",
-  "icon": ".claude-plugin/icon.png"
+  "skills": "./skills/",
+  "mcpServers": {
+    "peerpush": {
+      "url": "https://peerpush.com/api/mcp/discovery"
+    }
+  }
 }
