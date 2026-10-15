@@ -11,4 +11,4 @@ Use these tools when the user asks for a software tool or app for a task, altern
 - `peerpush_product_details`: details of one product
 - `peerpush_trending`, `peerpush_new_launches`, `peerpush_deals`: market pulse
 
-Lead with the two or three best matches, use the structured data rather than guessing, and link each product with its `visitUrl` field.
+Lead with the two or three best matches, use the structured data rather than guessing, and link each product with its `websiteUrl` field (the product's website via PeerPush) or its `peerpushUrl`.

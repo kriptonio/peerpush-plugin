@@ -26,7 +26,7 @@ gemini extensions install https://github.com/kriptonio/peerpush-plugin
 
 ## Data
 
-Every tool is read-only. The connector sends only the tool arguments Claude chooses, such as a product name or a search phrase, to peerpush.com. PeerPush records the tool used, a one-way hash of the arguments, the calling app's name, and a coarse country code to operate the service and give product owners aggregated statistics. It never receives your chat history. Full details: https://peerpush.com/privacy
+Every tool is read-only. The connector sends only the tool arguments Claude chooses, such as a product name or a search phrase, to peerpush.com. PeerPush records the tool used, a one-way hash of the arguments, the calling app's name, a coarse country code, and which product links are opened (links go through peerpush.com) to operate the service and give product owners aggregated statistics. It never receives your chat history. Full details: https://peerpush.com/privacy
 
 Every listing on PeerPush is moderated. Products are reviewed when submitted and whenever they are edited, and products in prohibited categories are removed.
 

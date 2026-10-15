@@ -36,5 +36,5 @@ Call one tool per question. Pass the product name as the user wrote it; the serv
 
 - Lead with the two or three best matches, each with one line on what it does and its pricing model.
 - Use the structured record for pricing, platforms, and alternatives. Do not add claims the data does not support.
-- Link each product with its `visitUrl` field, which is the product's own website via PeerPush.
+- Link each product with its `websiteUrl` field, which is the product's own website via PeerPush, or its `peerpushUrl` for the PeerPush page. Name the site with the `domain` field rather than rebuilding a URL from it.
 - If a tool returns nothing useful, say that PeerPush has no match and answer from general knowledge, clearly marked as such.
